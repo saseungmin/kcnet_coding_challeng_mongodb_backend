@@ -1,0 +1,36 @@
+{
+  "name": "coding-challenge-backend",
+  "version": "0.0.1",
+  "description": "coding-challenge-backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src",
+    "start:dev": "nodemon --watch src/ -r esm src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saseungmin",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@koa/multer": "^3.0.0",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.9.28",
+    "multer": "^1.4.2",
+    "sanitize-html": "^1.27.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.4",
+    "eslint-config-prettier": "^6.11.0"
+  }
+}
